@@ -1,10 +1,8 @@
-import { FaDiscord, FaGithub, FaTwitch, FaTwitter } from "react-icons/fa6";
+import { FaGithub,  FaLinkedin } from "react-icons/fa6";
 
 const links = [
-    { href: 'https://discord.com', icon: <FaDiscord /> },
-    { href: 'https://twitter.com', icon: <FaTwitter /> },
-    { href: 'https://github.com', icon: <FaGithub /> },
-    { href: 'https://twitch.com', icon: <FaTwitch /> },
+    { href: 'https://github.com/ASHFAQ-91', icon: <FaGithub /> },
+    { href: 'https://www.linkedin.com/in/ashfaq-qureshi', icon: <FaLinkedin /> },
 ]
 
 const Footer = () => {
@@ -12,7 +10,7 @@ const Footer = () => {
         <footer className='w-screen bg-violet-300 py-4 text-black'>
             <div className='container mx-auto flex flex-col items-center justify-between gap-4 px-4 md:flex-row'>
                 <p className='text-center text-sm md:text-left'>
-                    &copy;Nova 2024. All rights reserved
+                    &copy; MASQ 2025. All rights reserved
                 </p>
 
                 <div className='flex justify-center gap-4 md:justify-start'>
